@@ -22,15 +22,29 @@ button{
 }
 
 .container{
+
 width: 1440px;
 padding-left: 15px;
 padding-right: 15px;
+margin-left: auto;
+margin-right: auto;
+outline: 2px solid;
+
+
+
 }
 
 
 
 /* Clones */
 
+/* trcgthtvtyn */
+.exp{
+  display: flex;
+}
+.lll{
+  display: flex;
+}
 /* - Точки в списках */
 .list {
   list-style-type: none;
@@ -68,9 +82,25 @@ padding-right: 15px;
 /* Hedder */
 .hedder {
 }
+
 .navigation {
+
+}
+.hedder-container{
+  
+  display: flex;
 }
 
+.all-logo{
+display: flex;
+}
+.list-container{
+
+}
+
+.nav-list{
+  display: flex;
+}
 .logo {
   font-family: var(--font-family-logo);
   font-weight: var(--main-logo-weight);
@@ -118,9 +148,14 @@ padding-right: 15px;
 }
 
 .address {
+  
+}
+.address-container{
+  
 }
 
 .address-items {
+  
 }
 .address-link {
   font-style: normal;
