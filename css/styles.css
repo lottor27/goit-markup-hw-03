@@ -188,6 +188,7 @@ button {
   width: 496px;
   margin-right: 473px;
   margin-left: 473px;
+  border-radius: 4px;
 }
 
 .hero-bnt {
@@ -200,6 +201,7 @@ button {
   color: #ffffff;
   margin-top: 40px;
   padding: 16px 32px;
+  border: none;
 }
 
 .hero-bnt-cont {
@@ -227,7 +229,7 @@ button {
 .feature-items {
 }
 
-.feature-item-cont{
+.feature-item-cont {
   margin-bottom: 8px;
 }
 .feature-text {
@@ -235,7 +237,6 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  
 }
 
 .cont-feature-text {
@@ -254,28 +255,28 @@ button {
   color: var(--main-text-color);
 }
 
-.app-title-cont{
-display: flex;
-align-items: center;
-flex-direction: column;
-margin-top: 120px;
-margin-bottom: 72px;
+.app-title-cont {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 120px;
+  margin-bottom: 72px;
 }
 
-.app-cont{
-display: flex;
-align-items: center;
-align-items: flex-start;
-gap: 24px;
-margin-left: 156px;
-margin-bottom: 120px;
+.app-cont {
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
+  gap: 24px;
+  margin-left: 156px;
+  margin-bottom: 120px;
 }
 .app-items {
 }
 
 /* Team */
 .team {
-  background-color: #F4F4FD;
+  background-color: #f4f4fd;
   padding-top: 120px;
 }
 .team-title {
@@ -296,9 +297,10 @@ margin-bottom: 120px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  padding-top: 8px;
 }
 
-.team-cont{
+.team-cont {
   display: flex;
   padding-bottom: 120px;
   padding-top: 72px;
@@ -306,19 +308,19 @@ margin-bottom: 120px;
   gap: 24px;
 }
 
-.pers-box{
+.pers-box {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color:#FFFFFF;
+  background-color: #ffffff;
 }
 
-.team-info-box{
-display: flex;
-flex-direction: column;
-align-items: center;
-margin-top: 32px;
-padding-bottom: 32px;
+.team-info-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 32px;
+  padding-bottom: 32px;
 }
 
 /* Footer */
@@ -327,7 +329,7 @@ padding-bottom: 32px;
   width: 1440px;
   height: 310px;
 }
-.footer-cont{
+.footer-cont {
   display: flex;
   flex-direction: column;
   margin-left: 156px;
@@ -371,8 +373,9 @@ padding-bottom: 32px;
   padding-top: 16px;
 }
 
-/* Poryfolio */
+/* Poryfolio */ /* Poryfolio */ /* Poryfolio */
 
+/* all */
 .Portf-list {
   list-style-type: none;
 }
@@ -408,5 +411,26 @@ padding-bottom: 32px;
   text-align: center;
   letter-spacing: 0.04em;
   color: #4d5ae5;
+  background-color: #f4f4fd;
   text-decoration: none;
+}
+
+/* nav-buttons */
+
+.nav-buttons {
+}
+
+.nav-buttons-cont {
+  display: flex;
+  margin-top: 96px;
+  margin-bottom: 72px;
+  gap: 24px;
+  justify-content: center;
+}
+
+.buttons-cont {
+  padding: 12px 24px;
+  border-radius: 4px;
+  background-color: ;
+  border: none;
 }
