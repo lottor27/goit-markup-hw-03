@@ -385,6 +385,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  margin-top: 8px;
 }
 
 .all {
@@ -433,4 +434,33 @@ button {
   border-radius: 4px;
   background-color: ;
   border: none;
+}
+
+/* Hero-portfolio */
+
+.hero-portfolio{
+
+}
+
+.hero-portfolio-cont{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 156px;
+  margin-bottom: 120px;
+  gap: 48px 24px;
+}
+
+.portfolio-list-items{
+  height: 420px;
+  width: 360px;
+  outline: 1px solid;
+  outline-color: #E7E9FC;
+}
+
+.list-items-text-cont{
+ padding-top: 32px;
+ padding-left: 10px;
+ 
+
+
 }
