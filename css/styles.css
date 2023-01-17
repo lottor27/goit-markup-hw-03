@@ -31,7 +31,6 @@ button {
   outline: 2px solid;
   display: flex;
   align-items: center;
-  
 }
 
 /* Clones */
@@ -86,7 +85,7 @@ button {
 }
 .list-container {
   display: flex;
-  
+
   margin-right: auto;
   margin-left: auto;
   gap: 40px;
@@ -101,7 +100,7 @@ button {
 }
 
 .address-items-cont {
- }
+}
 
 .nav-list {
 }
@@ -151,8 +150,6 @@ button {
 }
 
 .address-items {
-  
-  
 }
 .address-link {
   font-style: normal;
@@ -179,7 +176,6 @@ button {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  
 }
 
 .hero-title {
@@ -191,7 +187,6 @@ button {
   width: 494px;
   margin-right: 473px;
   margin-left: 473px;
-    
 }
 
 .hero-bnt {
@@ -204,13 +199,9 @@ button {
   color: #ffffff;
   margin-top: 40px;
   padding: 16px 32px;
-  
-
 }
 
-.hero-bnt-cont{
-
-
+.hero-bnt-cont {
 }
 
 .hero-bnt:hover {
@@ -222,15 +213,12 @@ button {
 }
 /* Feature */
 
-.cont-feature-list{
+.cont-feature-list {
   display: flex;
   margin-top: 120px;
   gap: 24px;
 }
 .feature {
-
- 
-  
 }
 .feature-title {
 }
@@ -244,11 +232,14 @@ button {
   color: #434455;
 }
 
-.cont-feature-text{
+.cont-feature-text {
   width: 264px;
 }
 /* App */
 .app {
+  display: flex;
+  align-items: center;
+  align-items: flex-start;
 }
 .app-title {
   font-size: 36px;
