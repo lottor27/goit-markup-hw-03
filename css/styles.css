@@ -24,10 +24,13 @@ button {
 }
 
 .container {
+  display: flex;
+  padding: 24px 156px;
+  justify-content: space-between;
   /* box-sizing: content-box; */
   /* margin-left: auto; */
   /* margin-right: auto; */
-  /* display: flex; */
+
   /* align-items: center; */
 }
 
@@ -77,15 +80,18 @@ button {
 }
 
 .all-logo {
+  display: flex;
+  
 }
 
 .list-container {
+  display: flex;
+  gap: 40px;
 }
 
 .address-container {
-}
-
-.address-items-cont {
+  display: flex;
+  gap: 40px;
 }
 
 .logo {
