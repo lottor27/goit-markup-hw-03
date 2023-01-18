@@ -1,7 +1,8 @@
 body {
   font-family: "roboto", sans-serif;
   width: 1440px;
-  outline: 2px solid;
+  border-style: solid;
+  border-width: 0px 1px 0px 0px;
 }
 
 h1,
@@ -26,10 +27,8 @@ button {
 .container {
   box-sizing: content-box;
   width: 1440px;
-
   margin-left: auto;
   margin-right: auto;
-  outline: 2px solid;
   display: flex;
   align-items: center;
 }
@@ -71,6 +70,9 @@ button {
 
 /* Hedder */
 .hedder {
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: #e7e9fc;
 }
 
 .navigation {
@@ -172,7 +174,8 @@ button {
 .hero {
   background-color: #2e2f42;
   width: 1440px;
-  height: 600px;
+  padding-top: 188px;
+  padding-bottom: 292px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -327,7 +330,7 @@ button {
 .footer {
   background-color: #2e2f42;
   width: 1440px;
-  height: 310px;
+  padding-bottom: 100px;
 }
 .footer-cont {
   display: flex;
@@ -368,7 +371,6 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #e7e9fc;
-  height: 72px;
   width: 264px;
   padding-top: 16px;
 }
@@ -432,17 +434,15 @@ button {
 .buttons-cont {
   padding: 12px 24px;
   border-radius: 4px;
-  background-color: ;
   border: none;
 }
 
 /* Hero-portfolio */
 
-.hero-portfolio{
-
+.hero-portfolio {
 }
 
-.hero-portfolio-cont{
+.hero-portfolio-cont {
   display: flex;
   flex-wrap: wrap;
   margin-left: 156px;
@@ -450,17 +450,19 @@ button {
   gap: 48px 24px;
 }
 
-.portfolio-list-items{
-  height: 420px;
-  width: 360px;
-  outline: 1px solid;
-  outline-color: #E7E9FC;
+.portfolio-list-items {
+  outline-color: #e7e9fc;
 }
 
-.list-items-text-cont{
- padding-top: 32px;
- padding-left: 10px;
- 
+.list-items-text-cont {
+  padding-top: 32px;
+  padding-left: 10px;
+  padding-bottom: 32px;
+  border: solid;
+  border-width: 0px 1px 1px 1px;
+  border-color: #e7e9fc;
+}
 
-
+.portfolio-img {
+  display: flex;
 }
