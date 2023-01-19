@@ -438,17 +438,17 @@ img {
 .all:hover .all:focus {
   background-color: #4d5ae5;
 }
-
 .all:active {
-  background-color: #404bbf;
+  color: #404bbf;
 }
 
-.buttons-cont:hover .buttons-cont:focus {
+.other-all:hover .other-all:focus {
   background-color: #4d5ae5;
   color: #ffffff;
 }
-.buttons-cont:active {
+.other-all:active {
   background-color: #404bbf;
+  color: #ffffff;
 }
 .hero-portfolio-cont {
   display: flex;
