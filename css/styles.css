@@ -83,20 +83,15 @@ img {
   display: flex;
   padding-top: 24px;
   padding-bottom: 24px;
-  
-
 }
 
 .all-logo {
-
 }
 
 .list-container {
   display: flex;
   gap: 40px;
-
 }
-
 
 .logo {
   font-family: var(--font-family-logo);
@@ -148,11 +143,11 @@ img {
 }
 
 .address-container {
-display: flex;
-margin-left: auto;
-padding-top: 24px;
-padding-bottom: 24px;
-gap: 40px;
+  display: flex;
+  margin-left: auto;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  gap: 40px;
 }
 
 .address-items {
@@ -271,7 +266,6 @@ gap: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 .app-cont-list {
@@ -286,14 +280,13 @@ gap: 40px;
 
 .team {
   background-color: #f4f4fd;
-    padding: 120px 0px 120px 0px;
+  padding: 120px 0px 120px 0px;
 }
 .team-cont {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
 }
 .list-cont {
   display: flex;
@@ -422,7 +415,7 @@ gap: 40px;
   text-decoration: none;
 }
 
-.portfolio{
+.portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -442,21 +435,20 @@ gap: 40px;
   border: none;
 }
 
-.all:hover{
-background-color: #4d5ae5;
+.all:hover .all:focus {
+  background-color: #4d5ae5;
 }
 
-.all:active{
+.all:active {
   background-color: #404bbf;
 }
 
-.buttons-cont:hover{
+.buttons-cont:hover .buttons-cont:focus {
   background-color: #4d5ae5;
   color: #ffffff;
 }
-.buttons-cont:active{
+.buttons-cont:active {
   background-color: #404bbf;
-
 }
 .hero-portfolio-cont {
   display: flex;
@@ -481,11 +473,3 @@ background-color: #4d5ae5;
 .portfolio-img {
   display: flex;
 }
-
-/* .hero-bnt:hover {
-  background-color: #4d5ae5;
-}
-
-.hero-bnt:active {
-  background-color: #404bbf;
-} */
