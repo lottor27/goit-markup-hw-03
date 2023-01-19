@@ -23,22 +23,14 @@ button {
   cursor: pointer;
 }
 
-.containers {
-  box-sizing: border-box;
-  display: flex;
-  width: 1200px;
-}
 .container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 1158px;
 }
 
 .hedder-container {
   display: flex;
-  padding: 24px 156px;
-  box-sizing: content-box;
-  width: 1200px;
 }
 
 img {
@@ -92,17 +84,18 @@ img {
 
 .all-logo {
   display: flex;
+  padding: 24px 0;
 }
 
 .list-container {
   display: flex;
   gap: 40px;
-  padding-left: 76px;
-  padding-right: 332px;
+  padding: 24px 76px;
 }
 
 .address-container {
   display: flex;
+  padding: 24px 0;
 }
 
 .logo {
@@ -187,9 +180,9 @@ img {
   width: 1200px;
   /* margin-right: auto;  */
   /* margin-left: auto; */
-  padding: 473px 188px 473px 188px;
-  box-sizing: content-box;
+  padding: 188px 0;
   align-items: center;
+  justify-content: center;
 }
 
 .hero-title {
@@ -214,7 +207,6 @@ img {
 
 .hero-bnt-cont {
   display: flex;
-  box-sizing: content-box;
   padding: 16px 32px;
   border-radius: 4px;
 }
@@ -235,11 +227,9 @@ img {
   display: flex;
   /* margin-right: auto;  */
   /* margin-left: auto; */
-  box-sizing: content-box;
   align-items: center;
-  padding: 120px 156px;
+  padding: 120px 0;
   gap: 24px;
-  width: 1200px;
 }
 
 .feature-title {
@@ -279,9 +269,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-sizing: content-box;
-  padding: 0px 156px 120px 156px;
-  width: 1200px;
+  padding: 0px 0px 120px 0px;
 }
 
 .app-cont-list {
@@ -300,17 +288,13 @@ img {
 .team-cont {
   display: flex;
   flex-direction: column;
-  box-sizing: content-box;
   align-items: center;
-  width: 1200px;
-  padding-left: 156px;
-  padding-top: 120px;
-  padding: 72px 156px 120px 156px;
+  justify-content: center;
+  padding: 72px 0px 120px 0px;
 }
 .list-cont {
   display: flex;
   box-sizing: content-box;
-  width: 1200px;
   gap: 24px;
   padding-top: 72px;
 }
@@ -446,11 +430,10 @@ img {
   gap: 24px;
   flex-direction: row;
   align-items: center;
-  justify-content: baseline;
+  justify-content: center;
   box-sizing: content-box;
   padding-top: 168px;
   padding-bottom: 72px;
-  padding-left: 427px;
 }
 
 .buttons-cont {
@@ -467,7 +450,6 @@ img {
 .hero-portfolio-cont {
   display: flex;
   flex-wrap: wrap;
-  padding-left: 156px;
   padding-bottom: 120px;
   gap: 48px 24px;
 }
