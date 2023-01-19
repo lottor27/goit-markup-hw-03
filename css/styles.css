@@ -31,7 +31,6 @@ button {
 
 .hedder-container {
   display: flex;
-  justify-content: space-around;
 }
 
 img {
@@ -145,6 +144,7 @@ img {
 }
 
 .address {
+  margin-left: auto;
 
 }
 
@@ -166,7 +166,6 @@ gap: 40px;
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
-  padding-right: 40px;
 }
 
 .address-link:hover {
@@ -196,7 +195,7 @@ gap: 40px;
   letter-spacing: 0.02em;
   color: #ffffff;
   width: 496px;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
 }
 .hero-bnt {
   font-family: "Roboto", sans-serif;
@@ -279,7 +278,7 @@ gap: 40px;
 .app-cont-list {
   display: flex;
   gap: 24px;
-  padding-top: 72px;
+  margin-top: 72px;
 }
 .app-items {
 }
@@ -288,7 +287,7 @@ gap: 40px;
 
 .team {
   background-color: #f4f4fd;
-    padding: 72px 0px 120px 0px;
+    padding: 120px 0px 120px 0px;
 }
 .team-cont {
   display: flex;
@@ -301,7 +300,7 @@ gap: 40px;
   display: flex;
   box-sizing: content-box;
   gap: 24px;
-  padding-top: 72px;
+  margin-top: 72px;
 }
 .team-title {
   font-weight: 700;
@@ -332,7 +331,7 @@ gap: 40px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  padding-top: 8px;
+  margin-top: 8px;
 }
 
 /* Footer */
@@ -424,11 +423,9 @@ gap: 40px;
   text-decoration: none;
 }
 
-/* nav-buttons */
-
-.nav-buttons {
-padding-top: 96px;
-padding-bottom: 72px;
+.portfolio{
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .nav-buttons-cont {
@@ -446,18 +443,16 @@ padding-bottom: 72px;
   border: none;
 }
 
-/* Hero-portfolio */
-
-.hero-portfolio {
-  padding-bottom: 120px;
-  display: flex;
-  flex-wrap: wrap;
+.buttons-cont:hover
+.buttons-cont:focus{
+  
 }
 
 .hero-portfolio-cont {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
+  margin-top: 72px;
 }
 
 .portfolio-list-items {
