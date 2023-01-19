@@ -389,7 +389,7 @@ img {
 
 .all {
   font-family: "roboto", sans-serif;
-  background-color: #404bbf;
+  background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -436,10 +436,10 @@ img {
 }
 
 .all:hover .all:focus {
-  background-color: #4d5ae5;
+  background-color: #404bbf;
 }
 .all:active {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 .other-all:hover .other-all:focus {
