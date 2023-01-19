@@ -145,7 +145,6 @@ img {
 
 .address {
   margin-left: auto;
-
 }
 
 .address-container {
@@ -443,11 +442,22 @@ gap: 40px;
   border: none;
 }
 
-.buttons-cont:hover
-.buttons-cont:focus{
-  
+.all:hover{
+background-color: #4d5ae5;
 }
 
+.all:active{
+  background-color: #404bbf;
+}
+
+.buttons-cont:hover{
+  background-color: #4d5ae5;
+  color: #ffffff;
+}
+.buttons-cont:active{
+  background-color: #404bbf;
+
+}
 .hero-portfolio-cont {
   display: flex;
   flex-wrap: wrap;
@@ -471,3 +481,11 @@ gap: 40px;
 .portfolio-img {
   display: flex;
 }
+
+/* .hero-bnt:hover {
+  background-color: #4d5ae5;
+}
+
+.hero-bnt:active {
+  background-color: #404bbf;
+} */
