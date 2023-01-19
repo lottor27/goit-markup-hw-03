@@ -450,6 +450,8 @@ padding-bottom: 72px;
 
 .hero-portfolio {
   padding-bottom: 120px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .hero-portfolio-cont {
