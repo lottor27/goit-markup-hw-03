@@ -416,7 +416,7 @@ img {
 }
 
 .portfolio {
-  padding-top: 120px;
+  padding-top: 96px;
   padding-bottom: 120px;
 }
 
@@ -435,14 +435,16 @@ img {
   border: none;
 }
 
-.all:hover .all:focus {
+.all:hover 
+.all:focus {
   background-color: #404bbf;
 }
 .all:active {
   background-color: #404bbf;
 }
 
-.other-all:hover .other-all:focus {
+.other-all:hover 
+.other-all:focus {
   background-color: #4d5ae5;
   color: #ffffff;
 }
