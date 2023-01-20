@@ -130,11 +130,13 @@ img {
   text-decoration: none;
 }
 
-.logo-link:hover {
+.logo-link:focus {
   color: #434455;
 }
 
-.logo-link:active {
+
+.logo-link:active,
+.logo-link:hover {
   color: #4d5ae5;
 }
 
@@ -212,7 +214,8 @@ img {
   background-color: #4d5ae5;
 }
 
-.hero-bnt:active {
+.hero-bnt:active,
+.hero-bnt:hover {
   background-color: #404bbf;
 }
 /* Feature */
@@ -435,7 +438,7 @@ img {
   border: none;
 }
 
-.all:hover 
+.all:hover, 
 .all:focus {
   background-color: #404bbf;
 }
@@ -443,7 +446,7 @@ img {
   background-color: #404bbf;
 }
 
-.other-all:hover 
+.other-all:hover, 
 .other-all:focus {
   background-color: #4d5ae5;
   color: #ffffff;
