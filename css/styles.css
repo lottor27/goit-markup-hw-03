@@ -77,12 +77,12 @@ img {
   border-style: solid;
   border-width: 0px 0px 1px 0px;
   border-color: #e7e9fc;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .navigation {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .all-logo {
@@ -147,8 +147,6 @@ img {
 .address-container {
   display: flex;
   margin-left: auto;
-  padding-top: 24px;
-  padding-bottom: 24px;
   gap: 40px;
 }
 
